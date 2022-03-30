@@ -10,10 +10,6 @@ Notes on the Copernicus platform
 -   [Python resources](#python-resources)
 -   [Examples of potential use](#examples-of-potential-use)
 
-## Objective
-
-This document describes the `Copernicus` platform and the data it
-contains that might be of interest for BIOME MAKERS.
 
 ## Copernicus
 
