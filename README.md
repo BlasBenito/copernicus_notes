@@ -1,4 +1,4 @@
-ERA5 climate (and Copernicus platform)
+Notes on the Copernicus platform
 ================
 
 -   [Objective](#objective)
