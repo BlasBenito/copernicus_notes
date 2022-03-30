@@ -8,6 +8,7 @@ ERA5 climate (and Copernicus platform)
     (C3S\*)](#copernicus-climate-change-service-c3s)
 -   [R resources](#r-resources)
 -   [Python resources](#python-resources)
+-   [Examples of potential use](#examples-of-potential-use)
 
 ## Objective
 
@@ -63,9 +64,16 @@ dynamics (the complete catalogue of services can be found
 -   Vegetation Productivity Index
     ([VPI](https://land.copernicus.eu/global/products/vpi)).
 -   Surface Soil Moisture
-    ([SSM](https://land.copernicus.eu/global/products/ssm)).
+    ([SSM](https://land.copernicus.eu/global/products/ssm)). Europe:
+    daily resolution
 -   Soil Water Index
-    ([SWI](https://land.copernicus.eu/global/products/swi)).
+    ([SWI](https://land.copernicus.eu/global/products/swi)). Europe, 1km
+    resolution, and Global at 12.5 km.
+-   Land Surface Temperature:
+    <https://land.copernicus.eu/global/products/lst>
+
+The manifest files are here:
+<https://land.copernicus.vgt.vito.be/manifest/>
 
 ## Copernicus Climate Change Service (C3S\*)
 
@@ -120,6 +128,11 @@ derived from ERA5 that might be of interest for BIOME MAKERS:
     allows subsetting by coordinates.
 -   Package [CSTools](https://CRAN.R-project.org/package=CSTools):
     download, downscaling, and analysis of ERA5 data.
+-   Package [elevatr](https://github.com/jhollist/elevatr/): provides
+    functions (like
+    [get\_opentopo()](https://rdrr.io/cran/elevatr/man/get_opentopo.html))
+    to download digital elevation models useful to downscale climate
+    data.
 -   [Tutorial on how to access ERA5 data with R by Dominic
     Royé](https://dominicroye.github.io/en/2018/access-to-climate-reanalysis-data-from-r/).
 -   [Tutorial on how to download CGLS data with R (by personnel of the
@@ -137,3 +150,5 @@ derived from ERA5 that might be of interest for BIOME MAKERS:
     Subpackage for working with Copernicus Global Land Cover Layers data
     in stactools, a command line tool and Python library for working
     with STAC.
+
+# Examples of potential use

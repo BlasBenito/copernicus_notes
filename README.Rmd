@@ -31,8 +31,11 @@ The [Global Land Service](https://land.copernicus.eu/global/index.html) contains
   - Dry Matter Productivity ([DMP](https://land.copernicus.eu/global/products/dmp)).
   - Vegetation Condition Index ([VCI](https://land.copernicus.eu/global/products/vci)).
   - Vegetation Productivity Index ([VPI](https://land.copernicus.eu/global/products/vpi)).
-  - Surface Soil Moisture ([SSM](https://land.copernicus.eu/global/products/ssm)).
-  - Soil Water Index ([SWI](https://land.copernicus.eu/global/products/swi)).
+  - Surface Soil Moisture ([SSM](https://land.copernicus.eu/global/products/ssm)). Europe: daily resolution
+  - Soil Water Index ([SWI](https://land.copernicus.eu/global/products/swi)). Europe, 1km resolution, and Global at 12.5 km.
+  - Land Surface Temperature: https://land.copernicus.eu/global/products/lst
+  
+  The manifest files are here: [https://land.copernicus.vgt.vito.be/manifest/](https://land.copernicus.vgt.vito.be/manifest/)
 
 ## Copernicus Climate Change Service (C3S*)
 
@@ -43,9 +46,6 @@ Such data can be accessed through the [Climate Data Store (CDS)](https://cds.cli
   - [ERA5-Land](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=overview): global dataset at 9km spatial resolution and hourly temporal resolution representing weather, water, and soil variables from 2m above the surface to a soil depth of 289cm. Examples of variables contained in this dataset are: 2m dewpoint temperature, 2m temperature, evaporation from vegetation transpiration, leaf area index, potential evaporation, snow cover and density, soil temperature (five levels: 0-7, 7-28, 28-100, and 100-289 cm), surface runoff, and total precipitation.
   - [ERA5-Land montly averages from 1981 to present](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview): Same variables as in ERA5-Land, but at a monthly temporal resolution from 1981.
   - [AgERA5: Agrometeorological indicators from 1979 to present](https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agrometeorological-indicators?tab=overview): Global daily surface meteorological data at 9km resolution from 1979 to presentf for agriculture and agro-ecological studies.
-
-
-
 
 ## R resources
 
@@ -63,3 +63,5 @@ Such data can be accessed through the [Climate Data Store (CDS)](https://cds.cli
 
   - [CDS API](https://cds.climate.copernicus.eu/api-how-to) and its [GitHub page](https://github.com/ecmwf/cdsapi).
   - Package [stactools-cgls-lc100](https://pypi.org/project/stactools-cgls-lc100/): Subpackage for working with Copernicus Global Land Cover Layers data in stactools, a command line tool and Python library for working with STAC.
+  
+# Examples of potential use
